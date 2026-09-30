@@ -1,14 +1,46 @@
-EnergyFit‑R Dashboard
-Tervise‑ ja treeninguandmete analüütika dashboard R‑is
+## EnergyFit-R 
 
-EnergyFit‑R on täielikult R‑is ehitatud analüütikaprojekt, mis ühendab treeningu-, une- ja energiatarbimise andmed ning visualiseerib need modernses Shiny dashboardis.
-Projekt demonstreerib oskust töötada andmetega, puhastada neid, luua mudeleid, ehitada visualiseeringuid ja pakkuda terviklikku analüütikalahendust.
+Tervise- ja treeninguandmete analüüs R-is
 
-Projekti eesmärk
-Luua ühtne analüütikapaneel, mis näitab:
-kuidas treening mõjutab energiatarbimist
-milline on une kvaliteedi trend ajas
-kuidas treeningu intensiivsus ja kestus seostuvad energiakuluga
-milline on une kvaliteedi jaotus
-millised mustrid tekivad kombineeritud andmetest
-Dashboard sobib nii terviseandmete analüüsiks kui ka R‑i oskuste demonstreerimiseks tööandjale.
+EnergyFit-R on R-is loodud analüütikaprojekt, mis ühendab treeningu-, une- ja energiatarbimise andmed ning kuvab tulemused interaktiivses Shiny dashboardis.
+
+Projekti eesmärk on muuta andmed lihtsasti mõistetavaks ning tuua välja erinevaid mustreid treeningu, une ja energiatarbimise vahel.
+
+- energiatarbimise muutust ajas
+- treeningu kestuse ja energiakulu seost
+- treeningute jaotust intensiivsuse järgi
+- une kvaliteedi jaotust ja trendi
+- kombineeritud andmetest leitud mustreid
+
+# Projektis kasutan:
+
+R ja Shiny – dashboardi ja analüüsi loomiseks
+andmete puhastamist – puuduvate väärtuste kontroll ja töötlemine
+andmete visualiseerimist – erinevad graafikud ja trendid
+Random Forest mudelit – energiatarbimise prognoosimiseks
+model.rds – treenitud mudeli salvestamiseks ja taaskasutamiseks
+
+# Projekti struktuur
+EnergyFit-R/
+├── energyfit.R
+├── workouts.csv
+├── sleep.csv
+├── energy_usage.csv
+├── model.rds
+├── energy_plot.png
+├── workout_effect.png
+└── README.md
+
+# Käivitamine
+
+Ava projekt RStudios või VS Code'is ja käivita:
+
+source("energyfit.R")
+
+Dashboard avaneb aadressil:
+
+http://127.0.0.1:4321
+
+# Projekti eesmärk
+
+See projekt näitab minu praktilist huvi andmeanalüüsi, visualiseerimise ja masinõppe vastu ning oskust muuta erinevatest allikatest pärinevad andmed arusaadavaks analüütiliseks lahenduseks.
