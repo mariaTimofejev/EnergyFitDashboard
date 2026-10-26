@@ -7,7 +7,7 @@ EnergyFit-R on R-is loodud analüütikaprojekt, mis ühendab treeningu-, une- ja
 Projekti eesmärk on muuta andmed lihtsasti mõistetavaks ning tuua välja erinevaid mustreid treeningu, une ja energiatarbimise vahel.
 
 - energiatarbimise muutust ajas
-- treeningu kestuse ja energiakulu seost
+- treeningu kestvuse ja energiakulu seost
 - treeningute jaotust intensiivsuse järgi
 - une kvaliteedi jaotust ja trendi
 - kombineeritud andmetest leitud mustreid
