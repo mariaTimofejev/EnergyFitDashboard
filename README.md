@@ -39,7 +39,7 @@ source("energyfit.R")
 
 Dashboard avaneb aadressil:
 
-http://127.0.0.1:4321
+http://127.0.0.1:3799
 
 # Projekti eesmärk
 
